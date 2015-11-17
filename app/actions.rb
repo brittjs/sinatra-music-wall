@@ -3,6 +3,6 @@ get '/' do
   erb :index
 end
 
-get '/music' do
-  erb :'music/index'
+get '/tracks' do
+  erb :'tracks/index'
 end
